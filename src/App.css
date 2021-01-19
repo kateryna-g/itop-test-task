@@ -1,0 +1,49 @@
+body {
+  font-family: Herculanum, Harrington, fantasy;
+}
+
+h2 {
+  font-size: 68px;
+}
+
+.container {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 800px;
+  height: 400px;
+
+  margin: 30px auto;
+  text-align: center;
+
+  border: 2px solid black;
+  border-radius: 4px;
+  background: lightgrey;
+}
+
+button {
+  font-family:  fantasy, Harrington, Herculanum;
+  font-size: 18px;
+
+  width: 100px;
+
+  padding: 10px;
+  margin: 10px;
+
+  border-radius: 4px;
+  cursor: pointer;
+
+  outline: none;
+}
+
+button:hover {
+  border: solid 1px #1f0303;
+  color: #1f0303;
+}
+
+.actions {
+  position: relative;
+}
